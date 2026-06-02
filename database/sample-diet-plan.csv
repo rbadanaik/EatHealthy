@@ -1,0 +1,11 @@
+Section,MealType,Item,SortOrder
+MORNING,BREAKFAST,Oatmeal with fruits,1
+MORNING,SNACK,Yogurt with nuts,2
+MORNING,DRINK,Green tea,3
+AFTERNOON,LUNCH,Grilled chicken salad,1
+AFTERNOON,SNACK,Fruit smoothie,2
+AFTERNOON,DRINK,Herbal tea,3
+EVENING,SNACK,Sprouts chaat,1
+EVENING,DRINK,Lemon water,2
+NIGHT,DINNER,Paneer and sauteed vegetables,1
+NIGHT,DRINK,Warm turmeric milk,2

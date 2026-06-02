@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS samaira_diet;
+USE samaira_diet;
+
+CREATE TABLE IF NOT EXISTS users (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    full_name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS diet_plan_entries (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    section VARCHAR(50) NOT NULL,
+    meal_type VARCHAR(50) NOT NULL,
+    item VARCHAR(255) NOT NULL,
+    sort_order INT NOT NULL
+);

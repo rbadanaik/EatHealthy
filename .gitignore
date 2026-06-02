@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+
+# Java / Maven
+backend/target/
+
+# Logs
+*.log
