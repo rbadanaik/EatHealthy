@@ -26,7 +26,14 @@ This project runs locally with:
 Make sure MySQL is up before starting backend.
 
 If you use Homebrew on macOS, you can run:
-brew services start mysql
+## Command for database
+  Step1 : brew services start mysql
+  Step2 : mysql -u root / mysql -u root -p( for password prompt)
+  Step3 : SHOW DATABASES;
+  Step4 : USE samaira_diet;
+  Step5 : SHOW TABLES;
+  Step6 : DESCRIBE users;
+  Step7 : select * from users;
 
 ### Step 2: Create Database Schema
 From project root:
